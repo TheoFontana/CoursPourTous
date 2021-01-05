@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 10%;
+    text-align: center;
+}
+.profs{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 5% 10%;
+}
+
+.prof{
+    margin-right:  10%;
+    padding: 2%;
+    background-color: #fa9908;
+    border-radius: 30px;
+    width: 30%;
+    cursor: pointer;
+}
+.prof.last{
+    margin-right: 0;
+}
+
+.prof img{
+    width: 40%;
+    margin: 2% 0;
+    border-radius: 50%;
+}
+.prof h4{
+    color: #ffffff;
+    margin-bottom: 5%;
+}
+.prof p{
+    text-align: justify;    
+}
+.prof p.course{
+    font-size: 0.8em;
+    text-align: center; 
+    color: #ffffff;  
+    margin-top:5% ; 
+}
+
+.hide  {
+    display: none;
+}
+
+.close{
+    color: #ffffff;
+    text-align: right;
+    width: 15%;
+}
+.close:hover{
+    background-color: #fa9908;
+}
+.close img:hover{
+    background-color: #fa0799;
+    cursor: pointer;
+
+
+}
+.active {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    margin-right: 0;
+    cursor: default;
+
+}
+.active .close{
+    display:flex;
+}
+.active img{
+    width: 15%;
+}
+.active h4{
+    font-size: 1.3em;
+    color: #ffffff;
+    margin-bottom: 2%;
+}
+.active .short-description,
+.active .description{
+    padding: 1% 10%;
+    display: flex;
+    cursor:none;
+}
+.active .available{
+    display: flex;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin: 5% 20%;
+    padding: 2% 5%;
+}
+.active .available .day{
+    text-align: center;
+    width: 30%;
+    padding: 0 5%;
+    border-right:solid #000000 1px ;
+}
+.active .available .day:last-child{
+    border-right:unset;
+}
+
+.active .available .day h5,
+.active .available .day p{
+    text-align: center;
+}
+.active .available .day p{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 0.8em;
+}
+.active p.course{
+    font-size: 1.3em;
+    display: none;
+}
+.active .button{
+    display: block;
+}
+#cta-prof{
+    background-color: #fa0799;
+    font-size: 1.2em;
+}
