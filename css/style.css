@@ -44,7 +44,7 @@ body {
   padding: 10px 0;
 }
 
-.style-svg {
+.style-svg {    
   margin: 0;
   width: 100%;
 }
@@ -55,7 +55,7 @@ body {
 
 #section-svg-2 {
   position: relative;
-  top: 5px;
+  top: 6px;
 }
 
 #section-svg-3 {
@@ -127,6 +127,8 @@ body {
   background: linear-gradient(180deg, #fa9908 -100%, #fa0799 100%);
 }
 .about {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   margin: 0;
   padding: 0 10%;
@@ -222,40 +224,49 @@ body {
   padding-top: 10px;
 }
 
+.buton{
+  margin: 2%;
+  z-index: 10;
+}
+
 .cta {
-  z-index: 1000;
-  margin: 5% 0;
-  position: relative;
-  background-color: #fa9908;
   border-radius: 30px;
   text-decoration: none;
   text-align: center;
 }
+
 #cta-1 {
-  padding: 5 15px;
+  font-size: 1.5em;
+  color: #ffffff;
+  padding: 2% 5%;
+  background-color: #fa9908;
 }
+
 #cta-1:hover {
   background-color: #ffffff;
   color: #fa0799;
   text-decoration: none;
 }
 
-#cta-prof {
+#cta-nav{
   font-size: 1.5em;
   color: #ffffff;
-  padding: 20px;
+  background-color: #fa9908;
+
 }
-#cta-prof:hover {
+#cta-nav:hover{
   background-color: #ffffff;
   color: #fa0799;
   text-decoration: none;
+
 }
 
 #cta-2 {
-  top: -50px;
   font-size: 1.5em;
   color: #ffffff;
-  padding: 20px;
+  padding: 2% 5%;
+  background-color: #fa9908;
+
 }
 #cta-2:hover {
   background-color: #ffffff;
