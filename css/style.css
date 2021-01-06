@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-  font-family: Calibri, sans-serif;
-}
+font-family: 'Montserrat', sans-serif;}
 
 .nav {
   height: 60px;
@@ -249,7 +250,7 @@ body {
 }
 
 #cta-nav{
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: #ffffff;
   background-color: #fa9908;
 
@@ -283,6 +284,74 @@ body {
 .quote span {
   font-size: 2em;
 }
+
+.footer{
+  background-color: #fa0799;
+  color: #ffffff;
+  text-align: center;
+  padding: 2% 10% 0 10%;
+}
+.footer-nav{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+.footer-title{
+  text-align: center;
+  width: 100%;
+}
+.footer-title h3{
+  font-size: 1.8em;
+}
+.footer-title p{
+  margin-top: 2%;
+  font-size: 0.8em;
+}
+.footer .link-nav{
+  display: flex;
+  margin-top: 7%;
+  text-align: center;
+}
+.footer .links{
+  width: 50%;
+  list-style: none;
+  line-height: 1.5em;
+  text-align: center;
+
+}
+.footer .links:last-child{
+  margin-right: 0%;
+}
+.footer .links a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 0.8em;
+} 
+.footer .links a:hover{
+  text-decoration: underline;
+  text-underline-offset: 3px;
+} 
+.ref {
+  border-top: solid #fa9908 3px;
+  padding: 2%;
+  margin-top: 5%;
+  font-size: 0.5;
+}
+.ref p {
+  margin-top: 2%;
+  font-size: 0.8em;
+}
+.ref a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.ref a:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+
+
 
 /******** DESKTOP DEVICE ********/
 @media (min-width: 899px) {
@@ -379,4 +448,8 @@ body {
   #section-svg-1 {
     top: -5px;
   }
+
+
+
+
 }
