@@ -1,0 +1,50 @@
+ul{
+    list-style: none;
+}
+.button{
+    display: block;
+    margin-top: 5%;
+}
+.numbers li{
+    display:flex;
+    border-radius: 30px;
+    padding: 5%;
+    margin: 5% 0;
+}
+
+.numbers li .step{
+    padding: 0 5%;
+}
+.numbers li .step h2{
+    color: #ffffff;
+}
+.numbers li .step p{
+    padding: 2% 0 ;
+    text-align: justify;
+}
+
+.numbers li .number{
+    color: #ffffff;
+    font-size: 5em;
+    vertical-align: middle;
+    padding: 5% 8%;
+    border-radius: 30px;
+    text-align: center;
+    
+}
+.numbers li:nth-child(odd) .number{
+    background-color: #fa0799;
+    
+}
+.numbers li:nth-child(even) .number{
+    background-color: #fa9908;
+    float: right;
+    
+}
+.numbers li:nth-child(odd){
+    background-color: #fa9908;
+}
+.numbers li:nth-child(even){
+    background-color: #fa0799;
+    color: #ffffff;
+}

@@ -127,6 +127,10 @@
     font-size: 1.2em;
     padding: 2% 5%;
 }
+#cta-prof:hover{
+    background-color: #ffffff;
+    color: #fa0799;
+}
 
 @media (max-width: 900px) {
     .profs{
